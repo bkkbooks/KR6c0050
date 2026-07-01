@@ -1,0 +1,85 @@
+canonical_identifier: bkk:krp/KR6c0050/v1
+canonical_location: https://kanripo.org/bkk/KR6c0050/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛經會解
+  identifiers:
+    alt_id:
+    - X24n0462
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X24/X24n0462.xml
+    old_id: X24n0462
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0050_000.yaml, hash: 'sha256:4e00aad5b815c010d0addea90de49a62cc986638f40abc5da223c9426248165f'}
+  - {seq: 1, filename: KR6c0050_001.yaml, hash: 'sha256:f7dca80d784e70a5f83d0cfeb45bd85409c2d528ed5723984147fba8f1c92ba3'}
+  - {seq: 2, filename: KR6c0050_002.yaml, hash: 'sha256:b001a62a4d620f4edfa2adba6ada16a4ef101833d652cf5fb12489a83b4aef1e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0050_000.markers.yaml, hash: 'sha256:48227b00546732d02e99f607f449f38f926cb7eb047301ebe958049a1ceea68a'}
+  - {seq: 1, role: markers, filename: assets/KR6c0050_001.markers.yaml, hash: 'sha256:0e1b3c59a5a6dfe90d0486493a31ce21805892e3af6a125769730e7dd7732c09'}
+  - {seq: 2, role: markers, filename: assets/KR6c0050_002.markers.yaml, hash: 'sha256:58cbc24335dfd3668a22cf44a821a666ad994d9493705480c9a0c5c6da63032f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6c0050_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 462-A 金剛般若經會解序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6c0050_X_000-mulu-2
+    span:
+    - front
+    - 274
+    - 274
+  label: 金剛般若波羅蜜經會解
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0050_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 20574
+  label: 金剛般若波羅蜜經會解卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0050_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 21008
+  label: 金剛般若波羅蜜經會解卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0050_X_002-mulu-1
+    span:
+    - body
+    - 20834
+    - 20834
+  label: No. 462-B
+  type: mulu
+  level: 1
+hash: sha256:56008d5092decb4c4f5fe0cebb67f012d4ce1fb9d66ea10800d60631c8781d55
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
